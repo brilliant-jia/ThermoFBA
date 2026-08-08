@@ -31,12 +31,7 @@ Run all scripts from the repository root because they use relative paths.
 - `cplex_solu.py`: runs CPLEX and converts the solution pool into Python objects.
 - `nlpsolver.py`: configures IPOPT for nonlinear refinement.
 
-Run thermoFBA with:
 
-```powershell
-conda activate FBA
-python solve.py
-```
 
 ### Data Processing and Plotting
 
