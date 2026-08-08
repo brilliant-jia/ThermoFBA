@@ -11,8 +11,8 @@ import pickle
 from pyomo.opt import SolverFactory
 modeldir = './'
 
-#scondlist=['EX_fru','EX_gal','EX_glcn','EX_glc','EX_glyc','EX_pyr','EX_succ']
-scondlist=['EX_glyc','EX_pyr','EX_succ']
+scondlist=['EX_fru','EX_gal','EX_glcn','EX_glc','EX_pyr']
+
 
 for l in scondlist:
     returnval, nlpIter, FBA_mip, naliLi = make(l)
